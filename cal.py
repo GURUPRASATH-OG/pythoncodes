@@ -14,7 +14,7 @@ def simplecalculator():
     op=input("enter operator symbol like + - * / %:  ")
     if (op =='+'):
        result=a+b
-       print(f'addition of {a}and {b} is {result}')
+       print(f'addition of {a} and {b} is {result}')
     elif(op=='-'):
        result=a-b
        print(f'substraction of {a} and {b} is {result}')

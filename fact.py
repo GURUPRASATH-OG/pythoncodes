@@ -5,4 +5,9 @@ def fact():
         fact=fact*i
         a=a-1
     print(fact)
-wh()
+
+def adhaar(myudai,name):
+    myudai={myudai:name}
+    print(myudai)
+adhaar(9710929100,"guru prasath")
+adhaar(9176353379,'modi')
